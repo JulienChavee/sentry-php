@@ -32,7 +32,7 @@ class TraceMetrics
     }
 
     /**
-     * @param int|float                                  $value
+     * @param int|float                                 $value
      * @param array<string, int|float|string|bool|null> $attributes
      */
     public function count(
@@ -51,7 +51,7 @@ class TraceMetrics
     }
 
     /**
-     * @param int|float                                  $value
+     * @param int|float                                 $value
      * @param array<string, int|float|string|bool|null> $attributes
      */
     public function distribution(
@@ -70,7 +70,7 @@ class TraceMetrics
     }
 
     /**
-     * @param int|float                                  $value
+     * @param int|float                                 $value
      * @param array<string, int|float|string|bool|null> $attributes
      */
     public function gauge(

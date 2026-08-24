@@ -41,7 +41,7 @@ final class MetricsAggregator
     private $metrics;
 
     /**
-     * @param int|float                                  $value
+     * @param int|float                                 $value
      * @param array<string, int|float|string|bool|null> $attributes
      */
     public function add(

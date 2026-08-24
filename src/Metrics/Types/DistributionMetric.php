@@ -24,7 +24,7 @@ final class DistributionMetric extends Metric
     private $value;
 
     /**
-     * @param int|float                                  $value
+     * @param int|float                                 $value
      * @param array<string, int|float|string|bool|null> $attributes
      */
     public function __construct(
